@@ -21,6 +21,7 @@ $ touch .gitignore # creates a file where files or directories can be blackliste
 # directories can be ignored by adding the path (e.g. /dir1) of that dir
 # if *.txt is in blacklist (.gitignore), then every txt file will be withdraw from commit
 
+### branches
 
 
 
