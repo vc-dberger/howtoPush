@@ -87,4 +87,4 @@ function square(number) {
     return Math.pow(number, 2);
     // return number * number // also possible
 }
-console.log(square(8));
+console.log(square(6));

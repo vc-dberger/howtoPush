@@ -4,11 +4,15 @@ $ git config --global user.name 'Daniel Berger' # Add Name and email adress
 $ git config --global user.email 'dberger@vc.systems'
 $ git add (e.g.) index.html # add files to the git repo
 $ git rm (e.g.) --cached index.html # removes files (index.html) from git repo
-####
+###
 
 $ git add *.html # add any html files
 $ git add . # add every file
 
 ### UNTIL NOW NO FILE WAS COMMITED
 $ git commit (if vim editor opens. type 'i' to insert, ':wq' to write and quit. Editor nano works as well)
+# if files changing in folder, then e.g. 'git add .' and 'git commit' has to be called again -> uncommend the file that has to be committed and save
+# OR
+$ git commit -m 'changed index.js and howto_git.txt'
+
 
