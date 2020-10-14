@@ -22,7 +22,7 @@ $ touch .gitignore # creates a file where files or directories can be blackliste
 # if *.txt is in blacklist (.gitignore), then every txt file will be withdraw from commit
 
 ### branches
-
-
+git branch login # create a new branch
+git checkout login # switch branch to login
 
 
