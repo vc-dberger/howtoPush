@@ -15,4 +15,13 @@ $ git commit (if vim editor opens. type 'i' to insert, ':wq' to write and quit. 
 # OR
 $ git commit -m 'changed index.js and howto_git.txt'
 
+### Ignore certain files or directories
+$ touch .gitignore # creates a file where files or directories can be blacklisted
+# e.g. see example gitignore in /home/dberger/WebstormProjects/hello_world/
+# directories can be ignored by adding the path (e.g. /dir1) of that dir
+# if *.txt is in blacklist (.gitignore), then every txt file will be withdraw from commit
+
+
+
+
 
