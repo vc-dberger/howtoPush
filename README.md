@@ -3,7 +3,7 @@ Pushing some files to Github.
 Following tutorial was used: https://www.youtube.com/watch?v=SWYqp7iY_Tc
 
 # The notices
-$ cd to project
+$ cd /to/project # navigate to the project
 $ git init # initialize folder 'init'
 $ git config --global user.name 'Daniel Berger' # Add Name and email adress
 $ git config --global user.email 'dberger@vc.systems'
@@ -43,3 +43,4 @@ $ git push -u origin master # push the local repo to the master branch at GitHub
 $ git push # ... all that local snapshot will be pushed to Github
 
 ### Git clone into new folder
+$ git clone https://github.com/vc-dberger/howtoPush.git (link can be found in the 'Code' option at the specific project hosted on GitHub .. or elswhere)
